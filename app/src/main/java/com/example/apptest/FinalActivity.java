@@ -29,16 +29,16 @@ public class FinalActivity extends AppCompatActivity {
             public void onClick(View v) {
                 switch(fin) {
                     case 1:
-                        text.setText("");
+                        text.setText("потрудись еще 0/3");
                         break;
                     case 2:
-                        text.setText("Хорошая работа, Олег, 2/3");
+                        text.setText("оуее 2/3");
                         break;
                     case 3:
-                        text.setText("Oмайгадб, да вы крейзи, вы прошли тест на 3/3");
+                        text.setText("Поздравляю теперь ты  junior, вы прошли тест на 3/3");
                         break;
                     case 0:
-                        text.setText("Ну да, ну да... 0/3");
+                        text.setText(":( 0/3");
                         break;
                     default:
                         text.setText("Вы не доконца прошли тест");
